@@ -13,10 +13,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </div>
 `
-document.addEventListener('DOMContentLoaded', () => {
-  const powerButton = document.getElementById("powerButton");
-  const screen = document.getElementById("screen");
-  powerButton?.addEventListener('click', () => {
-    
-  });
-});
