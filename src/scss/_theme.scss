@@ -1,0 +1,31 @@
+:root {
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-dark-gray: hsl(90, 3%, 16%);
+  --clr-gray: hsl(217, 38%, 9%);
+  --clr-green: #06b87c;
+  --clr-white: #ffffff;
+
+  --clr-beige: hsl(25, 10%, 57%);
+
+  --ff-primary: "Courier New", Courier, monospace;
+
+  --fs-primary: 1rem;
+
+  --fw-normal: 400;
+  --fw-bold: 700;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-normal);
+  font-size: var(--fs-primary);
+  background: var(--clr-gray);
+  color: var(--clr-green);
+}
+
+.on {
+  animation: turnOff 0.4s ease-in-out;
+}
