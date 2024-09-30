@@ -1,3 +1,10 @@
+#app {
+  display: flex;
+    width: 100%;
+    place-content: center;
+    place-items: center;
+}
+
 #workstation {
   display: grid;
   max-width: 800px;
