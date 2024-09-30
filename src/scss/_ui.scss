@@ -1,5 +1,6 @@
 #workstation {
   display: grid;
+  max-width: 800px;
   grid-template-rows: 1fr auto;
 }
 
